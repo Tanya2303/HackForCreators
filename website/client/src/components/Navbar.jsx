@@ -46,52 +46,14 @@ export default function Navbar() {
 
     return (
         <div>
-            {/* {provider && !walletKey && (
-                <button
-                    style={{
-                        fontSize: "16px",
-                        padding: "15px",
-                        fontWeight: "bold",
-                        borderRadius: "5px",
-                    }}
-                    onClick={connectWallet}
-                >
-                    Connect to Phantom Wallet
-                </button>
-            )}
-
-            {provider && walletKey && (
-                <div>
-
-                    <button
-                        style={{
-                            fontSize: "16px",
-                            padding: "15px",
-                            fontWeight: "bold",
-                            borderRadius: "5px",
-                            margin: "15px auto",
-                        }}
-                        onClick={disconnectWallet}
-                    >
-                        Disconnect
-                    </button>
-                </div>
-            )}
-
-            {!provider && (
-                <p>
-                    No provider found. Install{" "}
-                    <a href="https://phantom.app/">Phantom Browser extension</a>
-                </p>
-            )} */}
             <div
-                className="flex justify-between md:justify-around py-4 w-full top-0 left-0 right-0 z-10 px-8 md:px-3">
+                className="flex justify-between md:justify-around py-4 w-full top-0 left-0 right-0 z-10 px-8 md:px-3 bg-tertiary">
 
                 <div className="flex items-center">
 
                     <a className="cursor-pointer">
                         <h3 className="text-4xl w-72 font-medium text-white">
-                            React App
+                            Artistry
                         </h3>
                     </a>
                 </div>
@@ -100,27 +62,27 @@ export default function Navbar() {
                     className="items-center md:space-x-8 justify-center justify-items-start md:justify-items-center md:flex md:pt-2 w-full left-0 top-16 px-5 md:px-10 py-3 md:py-0 border-t md:border-t-0 text-xl">
 
                     <Link to="/">
-                        <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-tertiary cursor-pointer text-white">Home</span>
+                        <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-primary cursor-pointer text-white">Home</span>
                     </Link>
 
                     <Link to="/explore">
-                        <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-tertiary cursor-pointer text-white">Explore</span>
+                        <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-primary cursor-pointer text-white">Explore</span>
                     </Link>
 
                     <Link to="/mynfts">
-                        <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-tertiary cursor-pointer text-white">My NFTs</span>
+                        <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-primary cursor-pointer text-white">My NFTs</span>
                     </Link>
 
                     <Link to="/upload">
-                        <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-tertiary cursor-pointer text-white">Upload NFTs</span>
+                        <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-primary cursor-pointer text-white">Upload NFTs</span>
                     </Link>
 
                     <Link to="/chatrooms">
-                        <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-tertiary cursor-pointer text-white">Chatroom</span>
+                        <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-primary cursor-pointer text-white">Chatroom</span>
                     </Link>
 
                     <Link to="/generate">
-                        <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-tertiary cursor-pointer text-white">Generate Art</span>
+                        <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-primary cursor-pointer text-white">Generate Art</span>
                     </Link>
                 </div>
 
@@ -133,9 +95,8 @@ export default function Navbar() {
                 {provider && walletKey && (
                     <div>
 
-                        <button className="bg-secondary p-1 rounded-md w-56" onClick={disconnectWallet}>
-                            {/* Connected account {walletKey} */}
-                            Disconnect
+                        <button className="bg-secondary rounded-md w-56 py-4" onClick={disconnectWallet}>
+                            {walletKey}
                         </button>
                     </div>
                 )}
