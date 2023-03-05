@@ -6,11 +6,13 @@ What makes a good content creator is one who knows what their audience is lookin
 
 ## 💻 What it does
 
-Artistry is an AI and Blockchain-based platform for content creators to share and sell their "content" to their audience in the form of NFTs. We provide a feature where creators could generate images from the text for inspiration. We also added a recommendation engine so that it's easier for buyers to check out similar content. Artistry also has a chart room where the content creators can interact with their audience directly and also share thoughts with other creators with similar interests. On Artistry users can:
+Artistry is an AI and Blockchain-based platform for content creators to share and sell their "content" to their audience in the form of NFTs. We provide a feature where creators could generate images from the text for inspiration. We also added a recommendation engine so that it's easier for buyers to check out similar content. Artistry also has a chart room where the content creators can interact with their audience directly and also share thoughts with other creators with similar interests. 
 
+On Artistry users can:
 - Other users can buy their NFTs.
 - Upload their creations in the form of NFTs.
-- Chatroom and NFT recommendations according to your NFT purchase.
+- NFT recommendations according to your NFT purchase.
+- Chatroom to interact with other users with similar interests.
 - Running out of ideas? Try our AI-generated image page to take some inspiration.
 
 ## ⚙️ How we built it
@@ -27,12 +29,12 @@ Are you out of concepts? To find some inspiration for your next creation, visit 
 
 ## 🌐 Best Domain Name from GoDaddy Registry
 
-- 
+- www.artistry.select
 
 ## 🧠 Challenges we ran into
 
-- It was a bit hard to build a recommendation system using a deep learning model but we made it happen in the end.
-- Working on the AI generation part was very difficult to build.
+- Building the recommendation system using a deep learning model was a bit hard but we made it happen in the end.
+- Finding the datasets that we wanted was difficult, took a very long time to find it
 - Building the front end and back end was a challenge for us.
 
 ## 🏅 Accomplishments that we're proud of
@@ -50,5 +52,7 @@ Are you out of concepts? To find some inspiration for your next creation, visit 
 ## 🚀 What's next for Artistry
 
 - Add support for more cryptocurrency transactions.
-- Improve the machine learning model.
 - Filter to NFT page.
+- Content creators could create their content using Artistry instead of just being able to upload it.
+   : Provide tools to create their own content
+   : Keep track of their progress 
