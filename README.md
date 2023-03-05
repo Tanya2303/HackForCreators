@@ -24,7 +24,7 @@ Are you out of concepts? To find some inspiration for you next creation, visit o
 
 ## 🌐 Best Domain Name from GoDaddy Registry
 
-- www.artistry.select
+- artistry.select
 
 ## 🧠 Challenges we ran into
 
