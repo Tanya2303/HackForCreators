@@ -54,5 +54,5 @@ Are you out of concepts? To find some inspiration for your next creation, visit 
 - Add support for more cryptocurrency transactions.
 - Filter to NFT page.
 - Content creators could create their content using Artistry instead of just being able to upload it.
-   : Provide tools to create their own content
-   : Keep track of their progress 
+   - Provide tools to create their own content
+   - Keep track of their progress 
